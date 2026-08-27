@@ -8,6 +8,7 @@ import {
   Check,
   CheckCircle,
   Clock,
+  CloudCheck,
   DotsThree,
   FunnelSimple,
   Lightning,
@@ -101,6 +102,7 @@ export default function Home() {
         <header className="topbar">
           <button className="icon-button mobile"><SidebarSimple /></button>
           <div className="search"><MagnifyingGlass /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search leads, companies, or signals" /></div>
+          <button className="salesforce-connector" onClick={() => {}} aria-label="Salesforce API connected demo"><span className="salesforce-icon"><CloudCheck weight="fill" /></span><span><strong>Salesforce API</strong><small><i /> Connected</small></span></button>
           <div className="top-actions"><button className="icon-button"><Bell /></button><button className="invite"><UsersThree /> Invite team</button></div>
         </header>
 
