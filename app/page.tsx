@@ -94,6 +94,7 @@ export default function Home() {
           <p className="eyebrow">Workspace</p>
           {nav.map((item) => <button key={item} className={activeNav === item ? "nav-item active" : "nav-item"} onClick={() => router.push(navRoutes[item])}><span className="nav-dot" />{item}{item === "Recommendations" && <span className="count">8</span>}</button>)}
         </nav>
+        <p className="creator-credit">Created by <strong>Jacob Chen</strong></p>
       </aside>
 
       <section className="workspace">

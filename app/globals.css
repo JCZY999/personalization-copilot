@@ -14,6 +14,8 @@ button { color:inherit; }
 .nav-dot { width:7px; height:7px; border:1.5px solid currentColor; border-radius:50%; }
 .nav-item.active .nav-dot { background:var(--lime); border-color:var(--lime); box-shadow:0 0 0 4px rgba(218,250,134,.1); }
 .count { margin-left:auto; font-size:11px; color:#183c31; background:var(--lime); border-radius:20px; min-width:21px; text-align:center; padding:2px 6px; font-weight:700; }
+.creator-credit { margin:auto 11px 2px; padding-top:20px; border-top:1px solid #35594f; color:#8da79e; font-size:10px; letter-spacing:.02em; }
+.creator-credit strong { display:block; margin-top:4px; color:#f3f7f2; font:650 12px var(--font-display); }
 .workspace { min-width:0; flex:1; }
 .topbar { height:70px; display:flex; align-items:center; padding:0 34px; background:rgba(255,255,255,.72); border-bottom:1px solid var(--line); backdrop-filter:blur(12px); }
 .search { display:flex; align-items:center; gap:10px; color:#7c8580; width:min(420px,50%); }.search svg{width:17px}.search input{border:0;background:transparent;outline:0;width:100%;font-size:13px;color:var(--ink)}
