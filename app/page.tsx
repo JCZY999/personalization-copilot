@@ -77,7 +77,7 @@ export default function Home() {
       <section className="workspace">
         <header className="topbar">
           <button className="icon-button mobile"><SidebarSimple /></button>
-          <div className="search"><MagnifyingGlass /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search leads, companies, or signals" /><kbd>⌘ K</kbd></div>
+          <div className="search"><MagnifyingGlass /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search leads, companies, or signals" /></div>
           <div className="top-actions"><button className="icon-button"><Bell /></button><button className="invite"><UsersThree /> Invite team</button></div>
         </header>
 
