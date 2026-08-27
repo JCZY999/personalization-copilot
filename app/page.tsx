@@ -4,7 +4,6 @@ import { useMemo, useState } from "react";
 import {
   ArrowUpRight,
   Bell,
-  CaretDown,
   Check,
   CheckCircle,
   Clock,
@@ -73,10 +72,6 @@ export default function Home() {
           <p className="eyebrow">Workspace</p>
           {nav.map((item) => <button key={item} className={activeNav === item ? "nav-item active" : "nav-item"} onClick={() => setActiveNav(item)}><span className="nav-dot" />{item}{item === "Recommendations" && <span className="count">8</span>}</button>)}
         </nav>
-        <div className="sidebar-footer">
-          <div className="usage"><div className="usage-top"><span>Monthly actions</span><strong>68%</strong></div><div className="progress"><span /></div><small>6,842 of 10,000 used</small></div>
-          <button className="profile"><span className="avatar mini">MK</span><span><strong>Maya Kim</strong><small>Acme workspace</small></span><CaretDown /></button>
-        </div>
       </aside>
 
       <section className="workspace">
